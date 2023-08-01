@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: outfit;
-  src: url("../font/Outfit-VariableFont_wght.ttf");
+  src: url("../../font/Outfit-VariableFont_wght.ttf");
 }
 body {
   width: 100%;
@@ -15,11 +15,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: hsl(212, 45%, 89%);
+  background-color: hsl(212deg, 45%, 89%);
 }
 
 main {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0deg, 0%, 100%);
   width: 250px;
   height: 380px;
   padding: 10px;
@@ -31,7 +31,7 @@ main {
 .qr_code_img {
   width: 100%;
   height: 200px;
-  background-image: url("/images/image-qr-code.png");
+  background-image: url("../../images/image-qr-code.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +43,6 @@ h3 {
   margin-top: 15px;
   margin-bottom: 8px;
   text-align: center;
-  font-size: 17px;
   font-weight: bold;
 }
 
@@ -65,5 +64,5 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=main.css.map */
